@@ -45,7 +45,6 @@ export default function App() {
   return (
     <div className="app-shell">
       <main className="app-main">
-        {/* Left column: selectors */}
         <div className="col-left">
           <RoomSelector
             rooms={rooms}
@@ -62,7 +61,6 @@ export default function App() {
           )}
         </div>
 
-        {/* Right column: summary panels */}
         <div className="col-right">
           <Summary
             room={selectedRoom}
